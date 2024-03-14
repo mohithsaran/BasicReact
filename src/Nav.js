@@ -1,11 +1,12 @@
 const NavBar= () => {
     return ( 
-        <nav>NavBar
-            <div className="links">
+        <nav className="navbar">
+        <h1>Blog</h1>
+        <div className="links">
             <a href="/">Home</a>
-            <a href="/about">About</a>
-            </div>
-        </nav>
+            <a href="/create">New Blog</a>
+        </div>
+    </nav>
      );
 }
  
